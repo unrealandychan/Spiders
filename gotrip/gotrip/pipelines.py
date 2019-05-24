@@ -14,8 +14,6 @@ class GotripPipeline(object):
     def process_item(self, item, spider):
         return item
 
-
-
 class MongodbPipeline(object):
     def __init__(self):
 
@@ -35,6 +33,6 @@ class MongodbPipeline(object):
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             self.client.insert(dict(item))
-            log.msg("Question added to MongoDB database!",
+            log.msg("Item added to MongoDB database!",
                     level=log.DEBUG, spider=spider)
         return item

@@ -10,6 +10,7 @@ import scrapy
 
 class GotripItem(scrapy.Item):
     # define the fields for your item here like:
+    url =scrapy.Field()
     title = scrapy.Field()
     catagory = scrapy.Field()
     publish_time = scrapy.Field()

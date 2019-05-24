@@ -94,7 +94,7 @@ ITEM_PIPELINES = {
 FEED_EXPORT_ENCODING = 'utf-8'
 
 #MONGODB
-MONGODB_SERVER = "mongodb+srv://algoowl:P@$$word@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
+MONGODB_SERVER = "mongodb+srv://algoowl:andychan1@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
 MONGODB_PORT = 27017
 MONGODB_DB = "Carlig"
 MONGODB_COLLECTION = BOT_NAME
