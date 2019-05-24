@@ -1,0 +1,147 @@
+1557280553360	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.BGngBvXWsQJm"
+1557280554055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557280554056	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557280554056	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557280556259	Marionette	INFO	Listening on port 61152
+1557280556328	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6 line 1 > scriptElement, line 151: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557280625003	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.f6Nkv7fXMkR9"
+1557280626241	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557280626242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557280626242	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557280628684	Marionette	INFO	Listening on port 61603
+1557280628721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1557280662198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.igk1x3rH0vpJ"
+1557280663151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557280663151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557280663151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557280665437	Marionette	INFO	Listening on port 61806
+1557280665488	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6 line 1 > scriptElement, line 151: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557280739241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.qxubpF8yZ6MX"
+1557280740995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557280740996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557280740996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557280743526	Marionette	INFO	Listening on port 62252
+1557280743625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6 line 1 > scriptElement, line 151: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Child 33838, MediaPlayback #2] WARNING: Decoder=19f146400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 33838, MediaPlayback #4] WARNING: Decoder=19f146400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1557280784027	Marionette	INFO	Stopped listening on port 62252
+1557280786834	Marionette	INFO	Stopped listening on port 61603
+1557280790099	Marionette	INFO	Stopped listening on port 61806
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1557280795108	Marionette	INFO	Stopped listening on port 61152
+1557280927962	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.IDRNuGfGQUNc"
+1557280928700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557280928700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557280928700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557280930761	Marionette	INFO	Listening on port 63222
+1557280930856	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6 line 1 > scriptElement, line 151: unreachable code after return statement
+1557281029027	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.o9yoYb9qYa8x"
+1557281029953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557281029953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557281029953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557281032538	Marionette	INFO	Listening on port 63747
+1557281032609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6 line 1 > scriptElement, line 151: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1557281104116	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/mm/p26ynx591yjcgv9nvfn2dn5r0000gn/T/rust_mozprofile.NU8Hx2jQ4oIa"
+1557281105200	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1557281105201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1557281105201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1557281107825	Marionette	INFO	Listening on port 64190
+1557281107848	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pretty.presslogic.com/article/302553/%E6%8A%BD%E5%BB%BF%E5%B9%BE%E8%90%AC%E6%B4%97%E9%A0%AD%E6%B0%B4%E8%BF%94%E5%B1%8B%E4%BC%81-%E5%8F%8B%E6%9E%B1vip-%E7%BE%85%E5%AE%B6%E8%8B%B1-%E6%93%BA%E6%98%8E%E8%A3%9D%E6%88%91-%E7%95%B6%E6%99%82%E6%88%91%E5%B7%B2%E7%B6%93%E4%BF%82%E5%85%89%E9%A0%AD-%E7%B6%B2%E6%B0%91-%E5%A5%BD%E9%81%8E2%E8%90%AC%E4%BB%B6%E8%8A%B1%E4%B9%8B%E6%88%80%E5%95%A6, line 151: unreachable code after return statement
+JavaScript error: https://pretty.presslogic.com/_nuxt/19fd296074aa6beaa853.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+[Parent 33873, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 33879, MediaPlayback #3] WARNING: Decoder=1431c8600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 33879, MediaPlayback #1] WARNING: Decoder=1431c8600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 33879, MediaPlayback #2] WARNING: Decoder=1431c8600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5F0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1557281129385	Marionette	INFO	Stopped listening on port 63747
+1557281131782	Marionette	INFO	Stopped listening on port 64190
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1557296068533	Marionette	INFO	Stopped listening on port 63222
