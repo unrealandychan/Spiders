@@ -29,7 +29,7 @@ class GotripAllSpider(scrapy.Spider):
         items = {
             "url":response.url,
             "title": response.xpath('//h1[@class="article__title  article__title--single"]//text()')[0].extract(),
-            "catagory": response.xpath('//div[@class="article__author-name"]//text()')[0].extract(),
+            "category": response.xpath('//div[@class="article__author-name"]//text()')[0].extract(),
             "publish_time": response.xpath('//time/@datetime')[0].extract(),
             'article': response.xpath("//div[contains(@class,'_page_')]//text()").extract(),
             'tags': response.xpath("//a[@class='btn  btn--small  btn--tertiary']//text()")[6:-6].extract()

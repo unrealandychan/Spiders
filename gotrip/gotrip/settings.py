@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    ''
+    'gotrip.pipelines.GotripPipeline':200,
    'gotrip.pipelines.MongodbPipeline': 300,
 }
 

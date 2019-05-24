@@ -12,6 +12,12 @@ from scrapy.conf import settings
 
 class GotripPipeline(object):
     def process_item(self, item, spider):
+        item["category"]= item["category"].replace("GOtrip - ", "")
+        item["article"] = ' '.join(item["article"])
+        return item
+
+class DataClearence(object):
+    def clean_data(self,item,spider):
         return item
 
 class MongodbPipeline(object):
