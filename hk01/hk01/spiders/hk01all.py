@@ -6,7 +6,7 @@ import re
 class Hk01allSpider(scrapy.Spider):
     name = 'hk01all'
     allowed_domains = ['hk01.com']
-    start_urls = ['https://www.hk01.com/數碼生活/331297/']
+    start_urls = ['https://www.hk01.com/知性女生/331777/']
 
     def parse(self, response):
         item = {
@@ -27,5 +27,5 @@ class Hk01allSpider(scrapy.Spider):
         links = response.xpath('//a/@href').extract()
 
         for link in links:
-            if re.match(r'^/[數碼生活|遊戲動漫|GEME]',link):
+             if re.match(r'^/[知性女生｜穿搭筆記｜一物｜談情說性]',link):
                 yield scrapy.Request(url = "https://hk01.com"+link,callback=self.parse)

@@ -11,8 +11,11 @@ import scrapy
 class UnwireItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    url=scrapy.Field()
     title = scrapy.Field()
     article = scrapy.Field()
     author = scrapy.Field()
     date = scrapy.Field()
     link = scrapy.Field()
+    tag = scrapy.Field()
+

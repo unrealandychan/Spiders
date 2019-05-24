@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'unwire.spiders'
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -69,6 +69,11 @@ COOKIES_ENABLED = False
 #    'unwire.pipelines.UnwirePipeline': 300,
 #}
 
+ITEM_PIPELINES = {
+   'unwire.pipelines.UnwirePipeline':200,
+   'unwire.pipelines.MongodbPipeline': 300,
+}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -92,3 +97,9 @@ COOKIES_ENABLED = False
 
 #輸出中文
 FEED_EXPORT_ENCODING = 'utf-8'
+
+#MONGODB
+MONGODB_SERVER = "mongodb+srv://algoowl:andychan1@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
+MONGODB_PORT = 27017
+MONGODB_DB = "Carlig"
+MONGODB_COLLECTION = BOT_NAME

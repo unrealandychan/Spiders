@@ -68,6 +68,11 @@ COOKIES_ENABLED = False
 #    'HypeBeast.pipelines.HypebeastPipeline': 300,
 #}
 
+ITEM_PIPELINES = {
+   'HypeBeast.pipelines.HypebeastPipeline':200,
+   'HypeBeast.pipelines.MongodbPipeline': 300,
+}
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -91,3 +96,9 @@ COOKIES_ENABLED = False
 
 #輸出中文
 FEED_EXPORT_ENCODING = 'utf-8'
+
+#MONGODB
+MONGODB_SERVER = "mongodb+srv://algoowl:andychan1@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
+MONGODB_PORT = 27017
+MONGODB_DB = "Carlig"
+MONGODB_COLLECTION = BOT_NAME

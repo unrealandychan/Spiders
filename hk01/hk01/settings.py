@@ -9,7 +9,7 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'hk01'
+BOT_NAME = 'hk01girls'
 
 SPIDER_MODULES = ['hk01.spiders']
 NEWSPIDER_MODULE = 'hk01.spiders'
@@ -68,6 +68,12 @@ ROBOTSTXT_OBEY = True
 #    'hk01.pipelines.Hk01Pipeline': 300,
 #}
 
+ITEM_PIPELINES = {
+   'hk01.pipelines.Hk01Pipeline':200,
+   'hk01.pipelines.MongodbPipeline': 300,
+}
+
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -91,3 +97,9 @@ ROBOTSTXT_OBEY = True
 
 #輸出中文
 FEED_EXPORT_ENCODING = 'utf-8'
+
+#MONGODB
+MONGODB_SERVER = "mongodb+srv://algoowl:andychan1@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
+MONGODB_PORT = 27017
+MONGODB_DB = "Carlig"
+MONGODB_COLLECTION = BOT_NAME
