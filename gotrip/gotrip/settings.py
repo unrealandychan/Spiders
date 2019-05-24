@@ -64,9 +64,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'gotrip.pipelines.GotripPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    ''
+   'gotrip.pipelines.MongodbPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -91,3 +92,9 @@ ROBOTSTXT_OBEY = True
 
 #輸出中文
 FEED_EXPORT_ENCODING = 'utf-8'
+
+#MONGODB
+MONGODB_SERVER = "mongodb+srv://algoowl:P@$$word@cluster0-51wm3.azure.mongodb.net/test?retryWrites=true"
+MONGODB_PORT = 27017
+MONGODB_DB = "Carlig"
+MONGODB_COLLECTION = BOT_NAME
